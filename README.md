@@ -18,6 +18,8 @@ The objetive of this project is to explore COVID-19 cases, deaths and vaccinatio
 - Visualize data using a world map
 - Summerize data using charts and graphs
 
+The Tableau dashboard for this project can be viewed at this [link](https://public.tableau.com/app/profile/musab.naik/viz/CovidDashboard_16482448758450/Dashboard1).
+
 # Data 
 The COVID-19 dataset used in this project is maintained by [Our World in Data](https://ourworldindata.org/coronavirus), and includes the following data:
 
