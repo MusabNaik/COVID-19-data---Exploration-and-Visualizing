@@ -1,4 +1,3 @@
-/****** Script for SelectTopNRows command from SSMS  ******/
 /*
 Covid 19 Data Exploration 
 Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
@@ -45,10 +44,12 @@ ORDER BY 1,2
 
 -- Countries with Highest Infection Rate compared to Population
 
-SELECT location, population, MAX(CAST(total_cases AS INT)) AS HighestInfectionCount, 
+SELECT location, population, 
+--	CAST(date as DATE)AS date,
+	MAX(CAST(total_cases AS INT)) AS HighestInfectionCount, 
 	Max((CAST(total_cases AS FLOAT)/NULLIF (CAST(population AS FLOAT),0)))*100 AS PercentPopulationInfected
 FROM COVID19..CovidDeaths
-GROUP BY Location, Population
+GROUP BY location, population--, date
 ORDER BY PercentPopulationInfected DESC
 
 
