@@ -32,4 +32,4 @@ The COVID-19 dataset used in this project is maintained by [Our World in Data](h
 | Policy responses            | Oxford COVID-19 Government Response Tracker               | Daily   | 186        |
 | Other variables of interest | International organizations (UN, World Bank, OECD, IHME…) | Fixed   | 241       |
 
-The data, as downloaded on 03/24/2022, is a single CSV file, and has 67 columns and 170654 rows. To demonstrate joins in SQL, the data has been manually seprated into two CSV files, CovidDeaths and CovidVaccinations.
+The data, as downloaded on 03/24/2022, is a single CSV file, and has 67 columns and 170654 rows. To demonstrate joins in SQL, the data has been manually seprated into two CSV files, [CovidDeaths.csv](https://github.com/MusabNaik/COVID-19-data---Exploration-and-Visualizing/blob/main/CovidDeaths.csv.zip) and [CovidVaccinations.csv](https://github.com/MusabNaik/COVID-19-data---Exploration-and-Visualizing/blob/main/CovidVaccinations.csv.zip).
